@@ -1,0 +1,91 @@
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:1:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:2:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.iotesters.PeekPokeTester[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:3:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.iotesters.Driver[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:4:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:5:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.util._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:7:1: not found: type PeekPokeTester[0m
+[0m[[0m[31merror[0m] [0m[0mPeekPokeTester(dut){[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:6:22: not found: type Alu[0m
+[0m[[0m[31merror[0m] [0m[0mclass AluTester(dut: Alu) extends[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:7:16: no arguments allowed for nullary constructor Object: ()Object[0m
+[0m[[0m[31merror[0m] [0m[0mPeekPokeTester(dut){[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:8:2: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m	poke(dut.io.a, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m	^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:9:2: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m	poke(dut.io.b, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m	^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:10:2: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m	poke(dut.io.fn, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m	^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:11:2: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m	step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m	^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:12:2: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m	poke(dut.io.a, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m	^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:13:2: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m	poke(dut.io.b, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m	^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:14:2: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m	poke(dut.io.fn, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m	^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:15:2: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m	step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m	^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:16:2: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m	poke(dut.io.a, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m	^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:17:2: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m	poke(dut.io.b, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m	^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:18:2: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m	poke(dut.io.fn, 2)[0m
+[0m[[0m[31merror[0m] [0m[0m	^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:19:2: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m	step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m	^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:20:2: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m	poke(dut.io.a, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m	^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:21:2: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m	poke(dut.io.b, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m	^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:22:2: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m	poke(dut.io.fn, 4)[0m
+[0m[[0m[31merror[0m] [0m[0m	^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:23:2: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m	step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m	^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:25:23: not found: type FlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0mclass AluSpec extends FlatSpec with Matchers{[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:25:37: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0mclass AluSpec extends FlatSpec with Matchers{[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:26:20: value should is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m	"WaveformCounter" should "pass" in {[0m
+[0m[[0m[31merror[0m] [0m[0m	                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:27:3: not found: value Driver[0m
+[0m[[0m[31merror[0m] [0m[0m		Driver.execute(Array("--generate-vcd-output", "on"), () =>[0m
+[0m[[0m[31merror[0m] [0m[0m		^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:28:7: not found: type Alu[0m
+[0m[[0m[31merror[0m] [0m[0m		new Alu()) { c =>[0m
+[0m[[0m[31merror[0m] [0m[0m		    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/Alu/src/test/scala/AluSpec.scala:30:12: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m		} should be (true)[0m
+[0m[[0m[31merror[0m] [0m[0m		         ^[0m
+[0m[[0m[31merror[0m] [0m[0m30 errors found[0m

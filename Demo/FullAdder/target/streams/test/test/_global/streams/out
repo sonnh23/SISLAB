@@ -1,0 +1,16 @@
+[debug] Running TaskDef(FullAdderSpec, org.scalatest.tools.Framework$$anon$1@41dfa813, false, [SuiteSelector])
+[info] FullAdderSpec:
+[info] WaveformCounter
+[info] FullAdderSpec *** ABORTED ***
+[info]   java.lang.IncompatibleClassChangeError: class treadle.stage.phases.ChirrtlToLow has interface firrtl.Transform as super class
+[info]   at java.lang.ClassLoader.defineClass1(Native Method)
+[info]   at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+[info]   at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+[info]   at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
+[info]   at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+[info]   at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+[info]   at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+[info]   at java.security.AccessController.doPrivileged(Native Method)
+[info]   at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+[info]   at sbt.internal.ManagedClassLoader.findClass(ManagedClassLoader.java:102)
+[info]   ...

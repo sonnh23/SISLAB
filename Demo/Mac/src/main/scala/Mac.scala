@@ -1,8 +1,4 @@
 import chisel3._
-import chisel3.iotesters.PeekPokeTester
-import chisel3.iotesters.Driver
-import org.scalatest._
-import chisel3.util._
 class Mac extends Module{
   val io = IO(new Bundle{
     val a = Input(UInt(8.W))

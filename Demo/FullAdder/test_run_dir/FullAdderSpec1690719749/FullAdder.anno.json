@@ -1,0 +1,38 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir\\FullAdderSpec1690719749\\FullAdder.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~FullAdder|FullAdder>io_s",
+    "sources":[
+      "~FullAdder|FullAdder>io_cIn",
+      "~FullAdder|FullAdder>io_a",
+      "~FullAdder|FullAdder>io_b"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~FullAdder|FullAdder>io_cOut",
+    "sources":[
+      "~FullAdder|FullAdder>io_cIn",
+      "~FullAdder|FullAdder>io_a",
+      "~FullAdder|FullAdder>io_b"
+    ]
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/FullAdderSpec1690719749"
+  }
+]
