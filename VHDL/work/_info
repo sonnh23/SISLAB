@@ -1,0 +1,97 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/userdata/k63D/sonnh_63d/VHDL
+Eand_gate
+Z1 w1604308271
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 d/home/userdata/k63D/sonnh_63d/VHDL
+Z5 8and_gate.vhd
+Z6 Fand_gate.vhd
+l0
+L3
+VaJaI6NMcDFU9VdZOkViK50
+Z7 OE;C;10.1d;51
+32
+Z8 !s108 1604308672.435201
+Z9 !s90 -reportprogress|300|and_gate.vhd|
+Z10 !s107 and_gate.vhd|
+Z11 tExplicit 1
+!s100 T`lUS4nDXPgDToa=7MkoA3
+!i10b 1
+Amodel
+R2
+R3
+Z12 DEx4 work 8 and_gate 0 22 aJaI6NMcDFU9VdZOkViK50
+32
+l14
+L12
+V2WYj8JmiI0eV=1if8gidB2
+R7
+R8
+R9
+R10
+R11
+!s100 9H4D6i[3OafKL?;JjZ1iL1
+!i10b 1
+Ccfg_tb_and_gate
+atb
+etb_and_gate
+R12
+DAx4 work 11 tb_and_gate 2 tb 22 H[k_:D04HUKFTdNHohblF2
+Z13 DPx3 std 3 env 0 22 kU@g3bh3dSQ6SKX7=V`LE3
+R2
+R3
+Z14 DEx4 work 11 tb_and_gate 0 22 m:UCo`eGi<<=gVioR>2[B2
+Z15 w1604308638
+R4
+Z16 8tb_and_gate.vhd
+Z17 Ftb_and_gate.vhd
+l0
+L63
+V?TYS9S]EC1gXkN8<H<e@R0
+R7
+32
+Z18 !s108 1604308672.961903
+Z19 !s90 -reportprogress|300|tb_and_gate.vhd|
+Z20 !s107 tb_and_gate.vhd|
+R11
+!s100 z1MWGbL9[BNgOERZbag`61
+!i10b 0
+Etb_and_gate
+R15
+R13
+R2
+R3
+R4
+R16
+R17
+l0
+L9
+Vm:UCo`eGi<<=gVioR>2[B2
+R7
+32
+R18
+R19
+R20
+R11
+!s100 aii;jTXT;CTVl>aYzU2H81
+!i10b 1
+Atb
+R13
+R2
+R3
+R14
+32
+l28
+L12
+VH[k_:D04HUKFTdNHohblF2
+R7
+R18
+R19
+R20
+R11
+!s100 zCJJOSab;TgdPS1dF`9Nj3
+!i10b 1

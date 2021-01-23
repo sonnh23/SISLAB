@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/sonnh/Desktop/Demo/Mac/target/scala-2.11/mac_2.11-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Mac.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sonnh/Desktop/Demo/Mac/target/scala-2.11/classes/Mac.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Mac$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sonnh/Desktop/Demo/Mac/target/scala-2.11/classes/Mac$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Mac$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sonnh/Desktop/Demo/Mac/target/scala-2.11/classes/Mac$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Mac$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sonnh/Desktop/Demo/Mac/target/scala-2.11/classes/Mac$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Mac$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sonnh/Desktop/Demo/Mac/target/scala-2.11/classes/Mac$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

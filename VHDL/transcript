@@ -1,0 +1,232 @@
+# //  Questa Sim
+# //  Version 10.1d linux Nov  1 2012
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do script.do 
+# QuestaSim vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and_gate
+# ** Error: and_gate.vhd(7): near ")": expecting FUNCTION or PROCEDURE or IMPURE or PURE
+# ** Error: /home/apps/mentor/questasim/10.1d/questasim/linux/vcom failed.
+# Error in macro ./script.do line 2
+# /home/apps/mentor/questasim/10.1d/questasim/linux/vcom failed.
+#     while executing
+# "vcom and_gate.vhd"
+!d
+# do script.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and_gate
+# -- Compiling architecture model of and_gate
+# QuestaSim vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_and_gate
+# -- Compiling architecture tb of tb_and_gate
+# -- Compiling configuration cfg_tb_and_gate
+# -- Loading entity tb_and_gate
+# -- Loading architecture tb of tb_and_gate
+# -- Loading entity and_gate
+# vsim -t 1ps -novopt tb_and_gate 
+# Loading std.standard
+# Refreshing /home/userdata/k63D/sonnh_63d/VHDL/work.tb_and_gate(tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_and_gate(tb)
+# Refreshing /home/userdata/k63D/sonnh_63d/VHDL/work.and_gate(model)
+# Loading work.and_gate(model)
+!d
+# do script.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and_gate
+# -- Compiling architecture model of and_gate
+# QuestaSim vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_and_gate
+# -- Compiling architecture tb of tb_and_gate
+# -- Compiling configuration cfg_tb_and_gate
+# -- Loading entity tb_and_gate
+# -- Loading architecture tb of tb_and_gate
+# -- Loading entity and_gate
+# vsim -t 1ps -novopt tb_and_gate 
+# Loading std.standard
+# Refreshing /home/userdata/k63D/sonnh_63d/VHDL/work.tb_and_gate(tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_and_gate(tb)
+# Refreshing /home/userdata/k63D/sonnh_63d/VHDL/work.and_gate(model)
+# Loading work.and_gate(model)
+!d
+# do script.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and_gate
+# -- Compiling architecture model of and_gate
+# QuestaSim vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_and_gate
+# -- Compiling architecture tb of tb_and_gate
+# -- Compiling configuration cfg_tb_and_gate
+# -- Loading entity tb_and_gate
+# -- Loading architecture tb of tb_and_gate
+# -- Loading entity and_gate
+# vsim -t 1ps -novopt tb_and_gate 
+# Loading std.standard
+# Refreshing /home/userdata/k63D/sonnh_63d/VHDL/work.tb_and_gate(tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_and_gate(tb)
+# Refreshing /home/userdata/k63D/sonnh_63d/VHDL/work.and_gate(model)
+# Loading work.and_gate(model)
+!d
+# do script.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and_gate
+# -- Compiling architecture model of and_gate
+# QuestaSim vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_and_gate
+# -- Compiling architecture tb of tb_and_gate
+# -- Compiling configuration cfg_tb_and_gate
+# -- Loading entity tb_and_gate
+# -- Loading architecture tb of tb_and_gate
+# -- Loading entity and_gate
+# vsim -t 1ps -novopt tb_and_gate 
+# Loading std.standard
+# Refreshing /home/userdata/k63D/sonnh_63d/VHDL/work.tb_and_gate(tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_and_gate(tb)
+# Refreshing /home/userdata/k63D/sonnh_63d/VHDL/work.and_gate(model)
+# Loading work.and_gate(model)
+# Break key hit 
+# Simulation stop requested.
+# Simulation Breakpoint: Simulation stop requested.
+# MACRO ./script.do PAUSED at line 6
+do script.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and_gate
+# -- Compiling architecture model of and_gate
+# QuestaSim vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# ** Error: tb_and_gate.vhd(7): near "all": expecting '[' or '(' or '.' or '\''
+# ** Error: /home/apps/mentor/questasim/10.1d/questasim/linux/vcom failed.
+# Error in macro ./script.do line 3
+# /home/apps/mentor/questasim/10.1d/questasim/linux/vcom failed.
+#     while executing
+# "vcom tb_and_gate.vhd"
+do script.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and_gate
+# -- Compiling architecture model of and_gate
+# QuestaSim vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# -- Compiling entity tb_and_gate
+# -- Compiling architecture tb of tb_and_gate
+# ** Error: tb_and_gate.vhd(55): near ")": syntax error
+# ** Error: tb_and_gate.vhd(59): VHDL Compiler exiting
+# ** Error: /home/apps/mentor/questasim/10.1d/questasim/linux/vcom failed.
+# Error in macro ./script.do line 3
+# /home/apps/mentor/questasim/10.1d/questasim/linux/vcom failed.
+#     while executing
+# "vcom tb_and_gate.vhd"
+do script.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and_gate
+# -- Compiling architecture model of and_gate
+# QuestaSim vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# -- Compiling entity tb_and_gate
+# -- Compiling architecture tb of tb_and_gate
+# ** Error: tb_and_gate.vhd(55): near ")": syntax error
+# ** Error: tb_and_gate.vhd(59): VHDL Compiler exiting
+# ** Error: /home/apps/mentor/questasim/10.1d/questasim/linux/vcom failed.
+# Error in macro ./script.do line 3
+# /home/apps/mentor/questasim/10.1d/questasim/linux/vcom failed.
+#     while executing
+# "vcom tb_and_gate.vhd"
+do script.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and_gate
+# -- Compiling architecture model of and_gate
+# QuestaSim vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# -- Compiling entity tb_and_gate
+# -- Compiling architecture tb of tb_and_gate
+# -- Compiling configuration cfg_tb_and_gate
+# -- Loading entity tb_and_gate
+# -- Loading architecture tb of tb_and_gate
+# -- Loading entity and_gate
+# vsim -t 1ps -novopt tb_and_gate 
+# Loading std.standard
+# Refreshing /home/userdata/k63D/sonnh_63d/VHDL/work.tb_and_gate(tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading std.env(body)
+# Loading work.tb_and_gate(tb)
+# Refreshing /home/userdata/k63D/sonnh_63d/VHDL/work.and_gate(model)
+# Loading work.and_gate(model)
+# 1
+# Break in Process stimuli at tb_and_gate.vhd line 55
+# Simulation Breakpoint: 1
+# Break in Process stimuli at tb_and_gate.vhd line 55
+# MACRO ./script.do PAUSED at line 6
+# Causality operation skipped due to absense of debug database file
+add dataflow sim:/tb_and_gate/dut/*

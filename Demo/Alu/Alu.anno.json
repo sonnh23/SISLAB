@@ -1,0 +1,33 @@
+[
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Alu|Alu>io_y",
+    "sources":[
+      "~Alu|Alu>io_fn",
+      "~Alu|Alu>io_a",
+      "~Alu|Alu>io_b"
+    ]
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.options.TargetDirAnnotation",
+    "directory":"."
+  },
+  {
+    "class":"firrtl.options.OutputAnnotationFileAnnotation",
+    "file":"Alu"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"."
+  }
+]

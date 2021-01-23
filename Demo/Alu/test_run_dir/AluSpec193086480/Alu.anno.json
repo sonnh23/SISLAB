@@ -1,0 +1,33 @@
+[
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Alu|Alu>io_y",
+    "sources":[
+      "~Alu|Alu>io_fn",
+      "~Alu|Alu>io_a",
+      "~Alu|Alu>io_b"
+    ]
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.options.TargetDirAnnotation",
+    "directory":"test_run_dir/AluSpec193086480"
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/AluSpec193086480"
+  },
+  {
+    "class":"firrtl.options.OutputAnnotationFileAnnotation",
+    "file":"Alu"
+  }
+]

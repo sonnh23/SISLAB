@@ -1,0 +1,21 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/sonnh/Desktop/Demo/matrix/target/scala-2.11/matrix_2.11-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Alu$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sonnh/Desktop/Demo/matrix/target/scala-2.11/classes/Alu$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Alu.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sonnh/Desktop/Demo/matrix/target/scala-2.11/classes/Alu.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Alu$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sonnh/Desktop/Demo/matrix/target/scala-2.11/classes/Alu$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Alu$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sonnh/Desktop/Demo/matrix/target/scala-2.11/classes/Alu$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Alu$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sonnh/Desktop/Demo/matrix/target/scala-2.11/classes/Alu$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Alu$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sonnh/Desktop/Demo/matrix/target/scala-2.11/classes/Alu$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Alu$$anonfun$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sonnh/Desktop/Demo/matrix/target/scala-2.11/classes/Alu$$anonfun$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Alu$$anonfun$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sonnh/Desktop/Demo/matrix/target/scala-2.11/classes/Alu$$anonfun$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Alu$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sonnh/Desktop/Demo/matrix/target/scala-2.11/classes/Alu$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

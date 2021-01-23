@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/matrix/src/main/scala/matrix.scala:10:16: not found: value Ouput[0m
+[0m[[0m[31merror[0m] [0m[0m    val matC = Ouput(Vec(9, UInt(16.W)))[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sonnh/Desktop/Demo/matrix/src/main/scala/matrix.scala:15:15: value UInt is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m      sum = 0.UInt(16.W)[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

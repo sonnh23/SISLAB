@@ -1,0 +1,90 @@
+# //  Questa Sim
+# //  Version 10.1d linux Nov  1 2012
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do script.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity invert
+# -- Compiling architecture model of invert
+# QuestaSim vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_invert
+# -- Compiling architecture tb of tb_invert
+# -- Compiling configuration cfg_tb_invert
+# -- Loading entity tb_invert
+# -- Loading architecture tb of tb_invert
+# -- Loading entity invert
+# vsim -novopt tb_invert 
+# Loading std.standard
+# Refreshing /home/userdata/k63D/sonnh_63d/VHDL/Invert/work.tb_invert(tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_invert(tb)
+# Refreshing /home/userdata/k63D/sonnh_63d/VHDL/Invert/work.invert(model)
+# Loading work.invert(model)
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 1 times, errno 11
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 2 times, errno 11
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 3 times, errno 11
+# ** Error: Cannot lock WLF file: "vsim.wlf"
+#           errno 11: Resource temporarily unavailable.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sonnh_63d  Hostname: sis-67  ProcessID: 9371
+#           Attempting to use alternate WLF file "./wlftUZUuOz".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftUZUuOz
+!d
+# do script.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity invert
+# -- Compiling architecture model of invert
+# QuestaSim vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_invert
+# -- Compiling architecture tb of tb_invert
+# -- Compiling configuration cfg_tb_invert
+# -- Loading entity tb_invert
+# -- Loading architecture tb of tb_invert
+# -- Loading entity invert
+# vsim -novopt tb_invert 
+# Loading std.standard
+# Refreshing /home/userdata/k63D/sonnh_63d/VHDL/Invert/work.tb_invert(tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_invert(tb)
+# Refreshing /home/userdata/k63D/sonnh_63d/VHDL/Invert/work.invert(model)
+# Loading work.invert(model)
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 1 times, errno 11
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 2 times, errno 11
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 3 times, errno 11
+# ** Error: Cannot lock WLF file: "vsim.wlf"
+#           errno 11: Resource temporarily unavailable.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sonnh_63d  Hostname: sis-67  ProcessID: 9371
+#           Attempting to use alternate WLF file "./wlftbyMQ6v".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftbyMQ6v
+# Causality operation skipped due to absense of debug database file
