@@ -1,0 +1,82 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\target\scala-2.12\classes ...
+[info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.12. Compiling...
+[info]   Compilation completed in 15.56s.
+[error] C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\src\main\scala\alu.scala:1:8: not found: object chisel3
+[error] import chisel3._
+[error]        ^
+[error] C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\src\main\scala\alu.scala:2:8: not found: object chisel3
+[error] import chisel3.iotesters.PeekPokeTester
+[error]        ^
+[error] C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\src\main\scala\alu.scala:3:8: not found: object chisel3
+[error] import chisel3.iotesters.Driver
+[error]        ^
+[error] C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\src\main\scala\alu.scala:4:12: object scalatest is not a member of package org
+[error] import org.scalatest._
+[error]            ^
+[error] C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\src\main\scala\alu.scala:5:8: not found: object chisel3
+[error] import chisel3.util._
+[error]        ^
+[error] C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\src\main\scala\alu.scala:6:25: not found: type Module
+[error] class FullAdder extends Module{
+[error]                         ^
+[error] C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\src\main\scala\alu.scala:7:12: not found: value IO
+[error]   val io = IO(new Bundle() {
+[error]            ^
+[error] C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\src\main\scala\alu.scala:7:19: not found: type Bundle
+[error]   val io = IO(new Bundle() {
+[error]                   ^
+[error] C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\src\main\scala\alu.scala:8:13: not found: value Input
+[error]     val a = Input(UInt(8.W))
+[error]             ^
+[error] C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\src\main\scala\alu.scala:8:19: not found: value UInt
+[error]     val a = Input(UInt(8.W))
+[error]                   ^
+[error] C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\src\main\scala\alu.scala:8:26: value W is not a member of Int
+[error]     val a = Input(UInt(8.W))
+[error]                          ^
+[error] C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\src\main\scala\alu.scala:9:13: not found: value Input
+[error]     val b = Input(UInt(8.W))
+[error]             ^
+[error] C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\src\main\scala\alu.scala:9:19: not found: value UInt
+[error]     val b = Input(UInt(8.W))
+[error]                   ^
+[error] C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\src\main\scala\alu.scala:9:26: value W is not a member of Int
+[error]     val b = Input(UInt(8.W))
+[error]                          ^
+[error] C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\src\main\scala\alu.scala:10:15: not found: value Input
+[error]     val cIn = Input(UInt(8.W))
+[error]               ^
+[error] C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\src\main\scala\alu.scala:10:21: not found: value UInt
+[error]     val cIn = Input(UInt(8.W))
+[error]                     ^
+[error] C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\src\main\scala\alu.scala:10:28: value W is not a member of Int
+[error]     val cIn = Input(UInt(8.W))
+[error]                            ^
+[error] C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\src\main\scala\alu.scala:11:13: not found: value Output
+[error]     val s = Output(UInt(8.W))
+[error]             ^
+[error] C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\src\main\scala\alu.scala:11:20: not found: value UInt
+[error]     val s = Output(UInt(8.W))
+[error]                    ^
+[error] C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\src\main\scala\alu.scala:11:27: value W is not a member of Int
+[error]     val s = Output(UInt(8.W))
+[error]                           ^
+[error] C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\src\main\scala\alu.scala:12:16: not found: value Output
+[error]     val cOut = Output(UInt(8.W))
+[error]                ^
+[error] C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\src\main\scala\alu.scala:12:23: not found: value UInt
+[error]     val cOut = Output(UInt(8.W))
+[error]                       ^
+[error] C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\src\main\scala\alu.scala:12:30: value W is not a member of Int
+[error]     val cOut = Output(UInt(8.W))
+[error]                              ^
+[error] C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\src\main\scala\alu.scala:18:3: not found: value chisel3
+[error]   chisel3.Driver.execute(Array[String](), () => new FullAdder())
+[error]   ^
+[error] 24 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 19 s, completed Jan 25, 2021 2:38:32 AM
+[debug] > Exec(idea-shell, None, None)

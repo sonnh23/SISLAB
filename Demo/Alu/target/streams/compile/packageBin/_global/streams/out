@@ -1,1 +1,21 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: /home/sonnh/Desktop/Demo/Alu/target/scala-2.11/alu_2.11-0.1.0-SNAPSHOT.jar[0m
+[debug] Packaging C:\Users\hongs\Google Drive\SISLAB\Demo\Alu\target\scala-2.11\alu_2.11-0.1.0-SNAPSHOT.jar ...
+[debug] Input file mappings:
+[debug] 	Alu$$anon$1.class
+[debug] 	  C:\Users\hongs\Google Drive\SISLAB\Demo\Alu\target\scala-2.11\classes\Alu$$anon$1.class
+[debug] 	Alu$$anonfun$1.class
+[debug] 	  C:\Users\hongs\Google Drive\SISLAB\Demo\Alu\target\scala-2.11\classes\Alu$$anonfun$1.class
+[debug] 	Alu$$anonfun$2.class
+[debug] 	  C:\Users\hongs\Google Drive\SISLAB\Demo\Alu\target\scala-2.11\classes\Alu$$anonfun$2.class
+[debug] 	Alu$$anonfun$3.class
+[debug] 	  C:\Users\hongs\Google Drive\SISLAB\Demo\Alu\target\scala-2.11\classes\Alu$$anonfun$3.class
+[debug] 	Alu$$anonfun$4.class
+[debug] 	  C:\Users\hongs\Google Drive\SISLAB\Demo\Alu\target\scala-2.11\classes\Alu$$anonfun$4.class
+[debug] 	Alu$$anonfun$5.class
+[debug] 	  C:\Users\hongs\Google Drive\SISLAB\Demo\Alu\target\scala-2.11\classes\Alu$$anonfun$5.class
+[debug] 	Alu$.class
+[debug] 	  C:\Users\hongs\Google Drive\SISLAB\Demo\Alu\target\scala-2.11\classes\Alu$.class
+[debug] 	Alu$delayedInit$body.class
+[debug] 	  C:\Users\hongs\Google Drive\SISLAB\Demo\Alu\target\scala-2.11\classes\Alu$delayedInit$body.class
+[debug] 	Alu.class
+[debug] 	  C:\Users\hongs\Google Drive\SISLAB\Demo\Alu\target\scala-2.11\classes\Alu.class
+[debug] Done packaging.

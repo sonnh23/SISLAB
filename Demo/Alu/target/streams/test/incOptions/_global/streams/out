@@ -1,0 +1,20 @@
+[debug] Created transactional ClassFileManager with tempDir = C:\Users\hongs\Google Drive\SISLAB\Demo\Alu\target\scala-2.11\test-classes.bak
+[debug] About to delete class files:
+[debug] 	FullAdderSpec.class
+[debug] 	FullAdderSpec$$anonfun$1$$anonfun$apply$2.class
+[debug] 	FullAdderSpec$$anonfun$1.class
+[debug] 	FullAdderSpec$$anonfun$1$$anonfun$apply$1.class
+[debug] 	FullAdderTester.class
+[debug] We backup class files:
+[debug] 	FullAdderSpec.class
+[debug] 	FullAdderSpec$$anonfun$1$$anonfun$apply$2.class
+[debug] 	FullAdderSpec$$anonfun$1.class
+[debug] 	FullAdderSpec$$anonfun$1$$anonfun$apply$1.class
+[debug] 	FullAdderTester.class
+[debug] Registering generated classes:
+[debug] 	AluSpec$$anonfun$1.class
+[debug] 	AluTester.class
+[debug] 	AluSpec$$anonfun$1$$anonfun$apply$2.class
+[debug] 	AluSpec$$anonfun$1$$anonfun$apply$1.class
+[debug] 	AluSpec.class
+[debug] Removing the temporary directory used for backing up class files: C:\Users\hongs\Google Drive\SISLAB\Demo\Alu\target\scala-2.11\test-classes.bak

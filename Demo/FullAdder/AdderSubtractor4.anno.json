@@ -1,0 +1,42 @@
+[
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~AdderSubtractor4|AdderSubtractor4>io_s",
+    "sources":[
+      "~AdderSubtractor4|AdderSubtractor4>io_fn",
+      "~AdderSubtractor4|AdderSubtractor4>io_a",
+      "~AdderSubtractor4|AdderSubtractor4>io_b"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~AdderSubtractor4|AdderSubtractor4>io_cOut",
+    "sources":[
+      "~AdderSubtractor4|AdderSubtractor4>io_fn",
+      "~AdderSubtractor4|AdderSubtractor4>io_a",
+      "~AdderSubtractor4|AdderSubtractor4>io_b"
+    ]
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.options.TargetDirAnnotation",
+    "directory":"."
+  },
+  {
+    "class":"firrtl.options.OutputAnnotationFileAnnotation",
+    "file":"AdderSubtractor4"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"."
+  }
+]

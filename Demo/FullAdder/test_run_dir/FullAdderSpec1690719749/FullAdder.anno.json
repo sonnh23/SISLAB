@@ -1,9 +1,5 @@
 [
   {
-    "class":"firrtl.stage.FirrtlFileAnnotation",
-    "file":"test_run_dir\\FullAdderSpec1690719749\\FullAdder.lo.fir"
-  },
-  {
     "class":"firrtl.transforms.CombinationalPath",
     "sink":"~FullAdder|FullAdder>io_s",
     "sources":[
@@ -16,9 +12,9 @@
     "class":"firrtl.transforms.CombinationalPath",
     "sink":"~FullAdder|FullAdder>io_cOut",
     "sources":[
+      "~FullAdder|FullAdder>io_b",
       "~FullAdder|FullAdder>io_cIn",
-      "~FullAdder|FullAdder>io_a",
-      "~FullAdder|FullAdder>io_b"
+      "~FullAdder|FullAdder>io_a"
     ]
   },
   {
@@ -28,11 +24,19 @@
     }
   },
   {
+    "class":"firrtl.options.TargetDirAnnotation",
+    "directory":"test_run_dir/FullAdderSpec1690719749"
+  },
+  {
     "class":"firrtl.EmitCircuitAnnotation",
     "emitter":"firrtl.LowFirrtlEmitter"
   },
   {
     "class":"firrtl.transforms.BlackBoxTargetDirAnno",
     "targetDir":"test_run_dir/FullAdderSpec1690719749"
+  },
+  {
+    "class":"firrtl.options.OutputAnnotationFileAnnotation",
+    "file":"FullAdder"
   }
 ]

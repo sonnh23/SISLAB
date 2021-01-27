@@ -1,0 +1,101 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\hongs\AppData\Local\Temp\idea7.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\hongs\AppData\Local\Temp\idea7.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.3 (Oracle Corporation Java 1.8.0_281)
+[debug]       Load.loadUnit: plugins took 149.0278ms
+[debug]       Load.loadUnit: defsScala took 0.4162ms
+[debug] [Loading] Scanning directory C:\Users\hongs\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\hongs\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 36.3488 ms
+[debug]           Load.resolveProject(global-plugins) took 70.4783ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\hongs\.sbt\1.0\plugins, plugins: List(<none>))) took 154.9496ms
+[debug] [Loading] Done in C:\Users\hongs\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 188.4341ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.3864ms
+[debug]     Load.loadUnit(file:/C:/Users/hongs/.sbt/1.0/plugins/, ...) took 348.4647ms
+[debug]   Load.apply: load took 565.1189ms
+[debug]   Load.apply: resolveProjects took 9.4812ms
+[debug]   Load.apply: finalTransforms took 81.5938ms
+[debug]   Load.apply: config.delegates took 13.2477ms
+[debug]   Load.apply: Def.make(settings)... took 1233.9113ms
+[debug]   Load.apply: structureIndex took 147.8162ms
+[debug]   Load.apply: mkStreams took 3.2304ms
+[info] loading global plugins from C:\Users\hongs\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 7634.9518ms
+[debug]           Load.loadUnit: plugins took 55.6286ms
+[debug]           Load.loadUnit: defsScala took 0.0097ms
+[debug] [Loading] Scanning directory C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\project
+[debug]             Load.loadUnit: mkEval took 17.0724ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.0631 ms
+[info] loading settings for project adder-build from idea7.sbt ...
+[debug]               Load.resolveProject(adder-build) took 14.7404ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id adder-build, base: C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\project, plugins: List(<none>))) took 18.7126ms
+[debug] [Loading] Done in C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\project, returning: (adder-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 3506.4659ms
+[debug]           Load.loadUnit: cleanEvalClasses took 8.8269ms
+[debug]         Load.loadUnit(file:/C:/Users/hongs/Google%20Drive/SISLAB/Demo/Adder/project/, ...) took 3572.7865ms
+[debug]       Load.apply: load took 3574.8679ms
+[debug]       Load.apply: resolveProjects took 0.1576ms
+[debug]       Load.apply: finalTransforms took 19.5152ms
+[debug]       Load.apply: config.delegates took 0.8037ms
+[debug]       Load.apply: Def.make(settings)... took 128.2608ms
+[debug]       Load.apply: structureIndex took 35.9121ms
+[debug]       Load.apply: mkStreams took 0.0029ms
+[info] loading project definition from C:\Users\hongs\Google Drive\SISLAB\Demo\Adder\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 4466.0638ms
+[debug]     Load.loadUnit: defsScala took 0.0026ms
+[debug] [Loading] Scanning directory C:\Users\hongs\Google Drive\SISLAB\Demo\Adder
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\hongs\Google Drive\SISLAB\Demo\Adder, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.6526 ms
+[debug]         Load.resolveProject(adder) took 34.4318ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id adder, base: C:\Users\hongs\Google Drive\SISLAB\Demo\Adder, plugins: List(<none>))) took 37.3441ms
+[debug] [Loading] Done in C:\Users\hongs\Google Drive\SISLAB\Demo\Adder, returning: (adder)
+[debug]     Load.loadUnit: loadedProjectsRaw took 38.398ms
+[debug]     Load.loadUnit: cleanEvalClasses took 0.0091ms
+[debug]   Load.loadUnit(file:/C:/Users/hongs/Google%20Drive/SISLAB/Demo/Adder/, ...) took 4505.3784ms
+[debug] Load.apply: load took 4507.3614ms
+[debug] Load.apply: resolveProjects took 0.1628ms
+[debug] Load.apply: finalTransforms took 26.158ms
+[debug] Load.apply: config.delegates took 0.6506ms
+[debug] Load.apply: Def.make(settings)... took 73.1385ms
+[debug] Load.apply: structureIndex took 33.3289ms
+[debug] Load.apply: mkStreams took 0.0028ms
+[info] set current project to adder (in build file:/C:/Users/hongs/Google%20Drive/SISLAB/Demo/Adder/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 64963 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 64963, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to adder (in build file:/C:/Users/hongs/Google%20Drive/SISLAB/Demo/Adder/)
+[debug] > Exec(idea-shell, None, None)

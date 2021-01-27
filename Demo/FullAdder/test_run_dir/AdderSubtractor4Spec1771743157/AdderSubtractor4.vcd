@@ -1,0 +1,299 @@
+$date
+2021-01-27T11:41+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module AdderSubtractor4 $end
+ $var wire 1 # _T $end
+ $var wire 1 ) io_cIn $end
+ $var wire 1 , FA0 $end
+ $var wire 1 0 FA3 $end
+ $var wire 4 4 io_b $end
+ $var wire 1 5 io_cOut $end
+ $var wire 1 : clock $end
+ $var wire 1 < FA2 $end
+ $var wire 4 = io_s $end
+ $var wire 4 @ output $end
+ $var wire 4 E io_a $end
+ $var wire 1 H reset $end
+ $var wire 1 J FA1 $end
+ $var wire 1 N io_fn $end
+  $scope module FA1 $end
+   $var wire 1 + reset $end
+   $var wire 1 2 io_cOut $end
+   $var wire 1 6 io_cIn $end
+   $var wire 1 8 _T $end
+   $var wire 1 ; io_b $end
+   $var wire 1 B clock $end
+   $var wire 1 L io_s $end
+   $var wire 1 M io_a $end
+  $upscope $end
+  $scope module FA2 $end
+   $var wire 1 ! _T $end
+   $var wire 1 $ io_cOut $end
+   $var wire 1 & io_s $end
+   $var wire 1 ' io_a $end
+   $var wire 1 / io_cIn $end
+   $var wire 1 9 clock $end
+   $var wire 1 A io_b $end
+   $var wire 1 G reset $end
+  $upscope $end
+  $scope module FA3 $end
+   $var wire 1 ( io_cIn $end
+   $var wire 1 * clock $end
+   $var wire 1 - io_a $end
+   $var wire 1 . io_s $end
+   $var wire 1 7 _T $end
+   $var wire 1 > reset $end
+   $var wire 1 D io_cOut $end
+   $var wire 1 K io_b $end
+  $upscope $end
+  $scope module FA0 $end
+   $var wire 1 " _T $end
+   $var wire 1 % clock $end
+   $var wire 1 1 io_b $end
+   $var wire 1 3 reset $end
+   $var wire 1 ? io_s $end
+   $var wire 1 C io_a $end
+   $var wire 1 F io_cIn $end
+   $var wire 1 I io_cOut $end
+  $upscope $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0%
+0C
+0;
+0&
+b0000 =
+0<
+0'
+0>
+06
+0!
+b0000 @
+07
+0"
+0M
+08
+0#
+0N
+09
+0:
+02
+b0000 4
+03
+0I
+0J
+05
+0-
+0K
+0.
+0L
+b0000 E
+0D
+0/
+00
+0(
+0F
+01
+0)
+0G
+0?
+0*
+0H
+0+
+0A
+0,
+0$
+0B
+$end
+#0
+13
+1G
+1H
+1+
+1>
+#1
+1B
+1%
+1*
+19
+1:
+#6
+0B
+0%
+0*
+09
+0:
+#11
+1B
+1%
+1*
+19
+1:
+#16
+0B
+0%
+0*
+09
+0:
+#21
+1B
+1%
+1*
+19
+1:
+#26
+0B
+0%
+0*
+09
+0:
+#31
+1B
+1%
+1*
+19
+1:
+#36
+0B
+0%
+0*
+09
+0:
+#41
+1B
+1%
+1*
+19
+1:
+#46
+03
+0B
+0%
+b0110 4
+1C
+1.
+b0011 E
+b1001 =
+1(
+1/
+0>
+1M
+1!
+1?
+1"
+b1001 @
+0G
+1#
+12
+0*
+09
+0H
+1$
+0+
+0:
+1A
+1;
+#51
+1B
+1%
+1*
+19
+1:
+#56
+0B
+0%
+0*
+09
+0:
+#61
+1B
+1%
+1*
+19
+1:
+#66
+0B
+0%
+0*
+09
+0:
+#71
+1B
+1%
+1*
+19
+1:
+#76
+0B
+0%
+0*
+09
+0:
+#81
+1B
+1%
+1*
+19
+1:
+#86
+0B
+1-
+0%
+b1001 4
+0.
+15
+1D
+16
+b1001 E
+b0000 =
+17
+0M
+0?
+1N
+1F
+b0000 @
+18
+0*
+09
+0:
+1I
+#91
+1B
+1%
+1*
+19
+1:
+#96
+0B
+0%
+1&
+1'
+b1111 E
+b0110 =
+1L
+1M
+0!
+b0110 @
+08
+0*
+09
+0:
+#101
+1B
+1%
+1*
+19
+1:
+#106
+0N
+b1000 4
+b1100 E
+0:

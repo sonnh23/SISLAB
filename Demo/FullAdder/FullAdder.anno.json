@@ -12,9 +12,9 @@
     "class":"firrtl.transforms.CombinationalPath",
     "sink":"~FullAdder|FullAdder>io_cOut",
     "sources":[
+      "~FullAdder|FullAdder>io_b",
       "~FullAdder|FullAdder>io_cIn",
-      "~FullAdder|FullAdder>io_a",
-      "~FullAdder|FullAdder>io_b"
+      "~FullAdder|FullAdder>io_a"
     ]
   },
   {
@@ -26,6 +26,14 @@
   {
     "class":"firrtl.EmitCircuitAnnotation",
     "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.options.TargetDirAnnotation",
+    "directory":"."
+  },
+  {
+    "class":"firrtl.options.OutputAnnotationFileAnnotation",
+    "file":"FullAdder"
   },
   {
     "class":"firrtl.transforms.BlackBoxTargetDirAnno",

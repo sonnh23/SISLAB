@@ -1,16 +1,19 @@
-[debug] Running TaskDef(FullAdderSpec, org.scalatest.tools.Framework$$anon$1@41dfa813, false, [SuiteSelector])
-[info] FullAdderSpec:
-[info] WaveformCounter
-[info] FullAdderSpec *** ABORTED ***
-[info]   java.lang.IncompatibleClassChangeError: class treadle.stage.phases.ChirrtlToLow has interface firrtl.Transform as super class
-[info]   at java.lang.ClassLoader.defineClass1(Native Method)
-[info]   at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
-[info]   at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
-[info]   at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
-[info]   at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
-[info]   at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
-[info]   at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
-[info]   at java.security.AccessController.doPrivileged(Native Method)
-[info]   at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
-[info]   at sbt.internal.ManagedClassLoader.findClass(ManagedClassLoader.java:102)
-[info]   ...
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(FullAdderSpec, org.scalatest.tools.Framework$$anon$1@60f94b1f, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AdderSubtractor4Spec, org.scalatest.tools.Framework$$anon$1@60f94b1f, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAdderSubtractor4Spec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mWaveformCounter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFullAdderSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mWaveformCounter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for ScalaCheck not available.[0m
+[0m[[0m[0minfo[0m] [0m[0mScalaTest[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 3 seconds, 531 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 2, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 2, Failed 0, Errors 0, Passed 2[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AdderSubtractor4Spec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FullAdderSpec[0m

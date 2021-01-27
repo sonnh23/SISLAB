@@ -1,0 +1,42 @@
+[
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~AdderSubtractor4|AdderSubtractor4>io_s",
+    "sources":[
+      "~AdderSubtractor4|AdderSubtractor4>io_fn",
+      "~AdderSubtractor4|AdderSubtractor4>io_a",
+      "~AdderSubtractor4|AdderSubtractor4>io_b"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~AdderSubtractor4|AdderSubtractor4>io_cOut",
+    "sources":[
+      "~AdderSubtractor4|AdderSubtractor4>io_fn",
+      "~AdderSubtractor4|AdderSubtractor4>io_a",
+      "~AdderSubtractor4|AdderSubtractor4>io_b"
+    ]
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.options.TargetDirAnnotation",
+    "directory":"test_run_dir/AdderSubtractor4Spec1771743157"
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/AdderSubtractor4Spec1771743157"
+  },
+  {
+    "class":"firrtl.options.OutputAnnotationFileAnnotation",
+    "file":"AdderSubtractor4"
+  }
+]

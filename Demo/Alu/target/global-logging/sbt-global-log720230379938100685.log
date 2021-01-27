@@ -1,0 +1,9 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\hongs\Google Drive\SISLAB\Demo\Alu\target\scala-2.11\classes ...
+[warn] there were 14 feature warnings; re-run with -feature for details
+[warn] one warning found
+[info] done compiling
+[success] Total time: 3 s, completed Jan 25, 2021 2:34:43 AM
+[debug] > Exec(idea-shell, None, None)

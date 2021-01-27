@@ -1,0 +1,42 @@
+[
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~FullAdder|FullAdder>io_s",
+    "sources":[
+      "~FullAdder|FullAdder>io_cIn",
+      "~FullAdder|FullAdder>io_a",
+      "~FullAdder|FullAdder>io_b"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~FullAdder|FullAdder>io_cOut",
+    "sources":[
+      "~FullAdder|FullAdder>io_cIn",
+      "~FullAdder|FullAdder>io_a",
+      "~FullAdder|FullAdder>io_b"
+    ]
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.options.TargetDirAnnotation",
+    "directory":"."
+  },
+  {
+    "class":"firrtl.options.OutputAnnotationFileAnnotation",
+    "file":"FullAdder"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"."
+  }
+]
